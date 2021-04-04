@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pearly Handicrafts - Crafts that speak for itself</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!--------- NAV BAR--------->
+    
+    <nav>
+        <ul class="topnav" id="dropDownMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#News">News</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#About">About</a></li>
+            <li class="topnav-right"><a href="#SignUp">Sign Up</a></li>
+            <li class="topnav-right"><a href="#SignIn">Sign In</a></li>
+            <li class="dropDownIcon"><a href="javascript:void(0);" onclick="dropDownClick()">&#9776;</a></li>
+        </ul>
+    </nav>
+    
+    <!-------- SECTION-1-GRADIENT & FORM -------->
+    
+    <div class="container" id="section-1-grad">
+    
+        <div class="row">
+            
+            <div class="col-6">
+                
+                <div class="leftSide-col">
+                    
+                    <h1 class="large">Crazy Radness</h1>
+                    <h1 class="large">Made for Developers</h1>
+                    
+                </div>
+                
+                <form>
+                    
+                <div class="leftSide-col">
+
+                   <h2>Username</h2>
+
+                    <input class="inputbox" name="username" type="text" placeholder="Username">
+
+                    <h2>Password</h2>
+
+                    <input class="inputbox" name="password" type="text" placeholder="Password">
+
+                </div>
+                    
+                </form>
+                
+            </div>
+            
+            <div class="col-6">
+               
+                <div class="rightSide-col">
+                
+                    <div class="videoContainer">
+                
+                        <iframe width="450" height="275" src="https://www.youtube.com/embed/M_hGn5cqxnU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                    </div>
+                
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <!------------- SECTION 2 ---------------->
+    
+    <header>
+        
+        <h1 class="largeHeading"> The Standards of Awesomeness </h1>
+        
+    </header>
+    
+    <div class="container">
+        
+        <div class="row">
+            
+            <div class="col-4">
+               
+                <div class="box">
+                
+                    <div class="icon">
+                
+                        <img class="section2Icon" src="insta_icon.png" alt="logo">
+                    
+                    </div>
+                    
+                    <label>Chat with Me</label>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At excepturi, harum voluptatum est laudantium aliquam repudiandae cupiditate ullam vitae fugiat, repellendus doloremque nam laborum veniam.</p>
+                
+                </div>
+                
+            </div>
+            
+            <div class="col-4">
+               
+                <div class="box">
+                
+                    <div class="icon">
+                
+                        <img class="section2Icon" src="insta_icon.png" alt="logo">
+                    
+                    </div>
+                    
+                    <label>Learn to Code</label>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At excepturi, harum voluptatum est laudantium aliquam repudiandae cupiditate ullam vitae fugiat, repellendus doloremque nam laborum veniam.</p>
+                
+                </div>
+                
+            </div>
+            
+            <div class="col-4">
+               
+                <div class="box">
+                
+                    <div class="icon">
+                
+                        <img class="section2Icon" src="insta_icon.png" alt="logo">
+                    
+                    </div>
+                    
+                    <label>Build an Empire</label>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At excepturi, harum voluptatum est laudantium aliquam repudiandae cupiditate ullam vitae fugiat, repellendus doloremque nam laborum veniam.</p>
+                
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <div class="row">
+            
+            <div class="col-12">
+                               
+                    <button class="learnMore">Learn More</button>
+                                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+    
+        function dropDownClick() {
+            var x = document.getElementById("dropDownMenu");
+            if (x.className === "topnav"){
+                x.className += " responsive";
+                /*change topNav to topnav.responsive*/
+            } else{
+                x.className = "topnav";
+            }
+            
+        }
+    
+    </script>
+</body>
+    
+</html>
